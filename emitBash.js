@@ -1,9 +1,6 @@
-function writeToScript (s) {
-    console.log (s);
-}
-
 var componentTable;
 let pipenum = 0;
+let script;
 
 function emit (components) {
     let toplevel = null;
@@ -24,7 +21,7 @@ function emit (components) {
 function emitAsyncLeafComponent (c) {
     newScript (c.name);
     let synccode = lookup (c.children[0]).synccode;
-    writeToScript (synccode);
+    emitToScript (synccode);
     endScript (c.name);
 }
 
@@ -33,25 +30,32 @@ function emitAsyncContainerComponent (c) {
     emitPipes (c.pipes);
     emitChildComponents (c.children);
     emitChildWaits (c.children);
+    emitRMPipes (c.pipes);
     endScript (c.name);
 }
 
 function emitChildComponents (children) {
     children.forEach (name => {
 	let c = lookup (name);
-	writeToScript (`./${name} ${c.inpipe} ${c.outpipe} &\n${name}_pid=\$\!`);
+	emitToScript (`./${name} ${c.inpipe} ${c.outpipe} &\n${name}_pid=\$\!`);
     });
 }
 
 function emitChildWaits (children) {
     children.forEach (name => {
-	writeToScript (`wait \$${name}_pid`);
+	emitToScript (`wait \$${name}_pid`);
     });
 }
 
 function emitPipes (pipeNames) {
     pipeNames.forEach (p => {
 	emitToScript (`mkfifo ${p}`);
+    });
+}
+
+function emitRMPipes (pipeNames) {
+    pipeNames.forEach (p => {
+	emitToScript (`rm ${p}`);
     });
 }
 
@@ -66,12 +70,13 @@ function lookup (name) {
 }
 
 function newScript (name) {
-    console.log ('#!/bin/bash');
-    console.log (`# ${name}`);
+    script = '';
+    emitToScript ('#!/bin/bash');
+    emitToScript (`# ${name}`);
 }
 
 function endScript (name) {
-    console.log ();
+    fs.writeFileSync (name, script);
 }
 
 function gatherComponents (components) {
@@ -105,13 +110,14 @@ function makePipeName (container, sourceComponent, targetComponent) {
     let pipeName = `pipe${pipenum}`;
     pipenum += 1;
     container.pipes.push (pipeName);
-    sourceComponent.inpipe = `3<${pipeName}`;
-    targetComponent.outpipe = `4>${pipeName}`;
+    sourceComponent.inpipe = `4>${pipeName}`;
+    targetComponent.outpipe = `3<${pipeName}`;
 }
 
 function emitToScript (s) {
-    console.log (s);
+    script += (s + '\n');
 }
+
 
 var fs = require ('fs');
 var components_string = fs.readFileSync ('7.json');
