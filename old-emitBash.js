@@ -76,7 +76,8 @@ function newScript (name) {
 }
 
 function endScript (name) {
-    process.stderr.write (`emitting ${name}\n`);
+    console.error ('writing');
+    console.error (name);
     fs.writeFileSync (name, script);
 }
 
@@ -115,12 +116,7 @@ function makePipeName (container, sourceComponent, targetComponent) {
     targetComponent.outpipe = `3<${pipeName}`;
 }
 
-function emitToScript (code) {
-    let s = code
-	.replace (/&lt;br&gt;/,'\n')
-	.replace (/&amp;gt;/,'>')
-	.replace (/&amp;lt;/,'<')
-    ;
+function emitToScript (s) {
     script += (s + '\n');
 }
 

@@ -7,27 +7,27 @@ b(q8f1Wc8Eixn7i3I6va0J__6,145).
 b(q8f1Wc8Eixn7i3I6va0J__8,130).
 b(zEKeuJ7PfgvpXLju9ces__1,130).
 b(zEKeuJ7PfgvpXLju9ces__2,130).
+cell(0,"").
+cell(1,"").
 cell(q8f1Wc8Eixn7i3I6va0J__1,"").
 cell(q8f1Wc8Eixn7i3I6va0J__2,"").
 cell(q8f1Wc8Eixn7i3I6va0J__34,"").
 cell(q8f1Wc8Eixn7i3I6va0J__35,"").
 cell(q8f1Wc8Eixn7i3I6va0J__6,"").
 cell(q8f1Wc8Eixn7i3I6va0J__8,"").
-cell(x_0,"").
-cell(x_1,"").
 cell(zEKeuJ7PfgvpXLju9ces__1,"").
 cell(zEKeuJ7PfgvpXLju9ces__2,"").
-diagram(x_FeA5kuE7ltZkfkWCjx6k, "").
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__1).
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__2).
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__34).
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__35).
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__6).
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__8).
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, x_0).
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, x_1).
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, zEKeuJ7PfgvpXLju9ces__1).
-diagramContains(x_FeA5kuE7ltZkfkWCjx6k, zEKeuJ7PfgvpXLju9ces__2).
+diagram(id_FeA5kuE7ltZkfkWCjx6k, "").
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, 0).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, 1).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__1).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__2).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__34).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__35).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__6).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, q8f1Wc8Eixn7i3I6va0J__8).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, zEKeuJ7PfgvpXLju9ces__1).
+diagramContains(id_FeA5kuE7ltZkfkWCjx6k, zEKeuJ7PfgvpXLju9ces__2).
 edge(q8f1Wc8Eixn7i3I6va0J__34, "").
 ellipse(q8f1Wc8Eixn7i3I6va0J__2, "").
 ellipse(q8f1Wc8Eixn7i3I6va0J__8, "").
@@ -42,28 +42,28 @@ height(q8f1Wc8Eixn7i3I6va0J__6, 70).
 height(q8f1Wc8Eixn7i3I6va0J__8, 40).
 height(zEKeuJ7PfgvpXLju9ces__1, 30).
 height(zEKeuJ7PfgvpXLju9ces__2, 30).
-l(q8f1Wc8Eixn7i3I6va0J__1,120).
+l(q8f1Wc8Eixn7i3I6va0J__1,90).
 l(q8f1Wc8Eixn7i3I6va0J__2,220).
 l(q8f1Wc8Eixn7i3I6va0J__34,240).
 l(q8f1Wc8Eixn7i3I6va0J__35,30).
 l(q8f1Wc8Eixn7i3I6va0J__6,360).
 l(q8f1Wc8Eixn7i3I6va0J__8,340).
-l(zEKeuJ7PfgvpXLju9ces__1,145).
+l(zEKeuJ7PfgvpXLju9ces__1,100).
 l(zEKeuJ7PfgvpXLju9ces__2,385).
-name(x_FeA5kuE7ltZkfkWCjx6k, "Page-1").
+name(id_FeA5kuE7ltZkfkWCjx6k, "Page-1").
 r(q8f1Wc8Eixn7i3I6va0J__1,240).
 r(q8f1Wc8Eixn7i3I6va0J__2,260).
 r(q8f1Wc8Eixn7i3I6va0J__34,360).
 r(q8f1Wc8Eixn7i3I6va0J__35,580).
-r(q8f1Wc8Eixn7i3I6va0J__6,480).
+r(q8f1Wc8Eixn7i3I6va0J__6,500).
 r(q8f1Wc8Eixn7i3I6va0J__8,380).
 r(zEKeuJ7PfgvpXLju9ces__1,215).
-r(zEKeuJ7PfgvpXLju9ces__2,455).
+r(zEKeuJ7PfgvpXLju9ces__2,480).
+rect(0,"").
+rect(1,"").
 rect(q8f1Wc8Eixn7i3I6va0J__1,"").
 rect(q8f1Wc8Eixn7i3I6va0J__35,"").
 rect(q8f1Wc8Eixn7i3I6va0J__6,"").
-rect(x_0,"").
-rect(x_1,"").
 rect(zEKeuJ7PfgvpXLju9ces__1,"").
 rect(zEKeuJ7PfgvpXLju9ces__2,"").
 source(q8f1Wc8Eixn7i3I6va0J__34, q8f1Wc8Eixn7i3I6va0J__2).
@@ -81,8 +81,8 @@ value(q8f1Wc8Eixn7i3I6va0J__2, "out").
 value(q8f1Wc8Eixn7i3I6va0J__35, "VSH0").
 value(q8f1Wc8Eixn7i3I6va0J__6, "world").
 value(q8f1Wc8Eixn7i3I6va0J__8, "in").
-value(zEKeuJ7PfgvpXLju9ces__1, "echo hello").
-value(zEKeuJ7PfgvpXLju9ces__2, "echo world").
+value(zEKeuJ7PfgvpXLju9ces__1, "echo hello&lt;br&gt;echo done &amp;gt;/dev/fd/4").
+value(zEKeuJ7PfgvpXLju9ces__2, "read &amp;lt;/dev/fd/3&lt;br&gt;echo world").
 vertex(q8f1Wc8Eixn7i3I6va0J__1, "").
 vertex(q8f1Wc8Eixn7i3I6va0J__2, "").
 vertex(q8f1Wc8Eixn7i3I6va0J__35, "").
@@ -90,19 +90,19 @@ vertex(q8f1Wc8Eixn7i3I6va0J__6, "").
 vertex(q8f1Wc8Eixn7i3I6va0J__8, "").
 vertex(zEKeuJ7PfgvpXLju9ces__1, "").
 vertex(zEKeuJ7PfgvpXLju9ces__2, "").
-width(q8f1Wc8Eixn7i3I6va0J__1, 120).
+width(q8f1Wc8Eixn7i3I6va0J__1, 150).
 width(q8f1Wc8Eixn7i3I6va0J__2, 40).
 width(q8f1Wc8Eixn7i3I6va0J__35, 550).
-width(q8f1Wc8Eixn7i3I6va0J__6, 120).
+width(q8f1Wc8Eixn7i3I6va0J__6, 140).
 width(q8f1Wc8Eixn7i3I6va0J__8, 40).
-width(zEKeuJ7PfgvpXLju9ces__1, 70).
-width(zEKeuJ7PfgvpXLju9ces__2, 70).
-x(q8f1Wc8Eixn7i3I6va0J__1, 120).
+width(zEKeuJ7PfgvpXLju9ces__1, 115).
+width(zEKeuJ7PfgvpXLju9ces__2, 95).
+x(q8f1Wc8Eixn7i3I6va0J__1, 90).
 x(q8f1Wc8Eixn7i3I6va0J__2, 220).
 x(q8f1Wc8Eixn7i3I6va0J__35, 30).
 x(q8f1Wc8Eixn7i3I6va0J__6, 360).
 x(q8f1Wc8Eixn7i3I6va0J__8, 340).
-x(zEKeuJ7PfgvpXLju9ces__1, 145).
+x(zEKeuJ7PfgvpXLju9ces__1, 100).
 x(zEKeuJ7PfgvpXLju9ces__2, 385).
 y(q8f1Wc8Eixn7i3I6va0J__1, 75).
 y(q8f1Wc8Eixn7i3I6va0J__2, 90).
@@ -136,12 +136,12 @@ factname(q8f1Wc8Eixn7i3I6va0J__6,"world").
 factname(q8f1Wc8Eixn7i3I6va0J__8,"in").
 factname(zEKeuJ7PfgvpXLju9ces__1,"code1").
 factname(zEKeuJ7PfgvpXLju9ces__2,"code2").
-unknowncomponentname(x_0,"u1").
-unknowncomponentname(x_1,"u2").
+unknowncomponentname(0,"u1").
+unknowncomponentname(1,"u2").
+factcomponentcode(0,"").
+factcomponentcode(1,"").
 factcomponentcode(q8f1Wc8Eixn7i3I6va0J__1,"").
 factcomponentcode(q8f1Wc8Eixn7i3I6va0J__35,"").
 factcomponentcode(q8f1Wc8Eixn7i3I6va0J__6,"").
-factcomponentcode(x_0,"").
-factcomponentcode(x_1,"").
-factcomponentcode(zEKeuJ7PfgvpXLju9ces__1,"echo hello").
-factcomponentcode(zEKeuJ7PfgvpXLju9ces__2,"echo world").
+factcomponentcode(zEKeuJ7PfgvpXLju9ces__1,"echo hello&lt;br&gt;echo done &amp;gt;/dev/fd/4").
+factcomponentcode(zEKeuJ7PfgvpXLju9ces__2,"read &amp;lt;/dev/fd/3&lt;br&gt;echo world").

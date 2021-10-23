@@ -1,67 +1,67 @@
-[
+[ {
+  "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
+  "toplevelcomponent":"q8f1Wc8Eixn7i3I6va0J__35"
+},
+
+{
+  "children": ["code1" ],
+  "connections": [],
+  "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
+  "id":"q8f1Wc8Eixn7i3I6va0J__1",
+  "inputs": [],
+  "name":"hello",
+  "outputs": ["out" ],
+  "synccode":""
+}
+,
+{
+  "children": ["hello", "world" ],
+  "connections": [
     {
-	"diagram":"x_FeA5kuE7ltZkfkWCjx6k",
-	"toplevelcomponent":"q8f1Wc8Eixn7i3I6va0J__35"
+      "name":"x2",
+      "source": {"component":"hello", "port":"out"},
+      "target": {"component":"world", "port":"in"}
     }
-    ,
-    {
-	"children": ["code1" ],
-	"connections": [],
-	"diagram":"x_FeA5kuE7ltZkfkWCjx6k",
-	"id":"q8f1Wc8Eixn7i3I6va0J__1",
-	"inputs": [],
-	"name":"hello",
-	"outputs": ["out" ],
-	"synccode":""
-    }
-    ,
-    {
-	"children": ["hello", "world" ],
-	"connections": [
-	    {
-		"name":"x2",
-		"source": {"component":"hello", "port":"out"},
-		"target": {"component":"world", "port":"in"}
-	    }
-	],
-	"diagram":"x_FeA5kuE7ltZkfkWCjx6k",
-	"id":"q8f1Wc8Eixn7i3I6va0J__35",
-	"inputs": [],
-	"name":"VSH0",
-	"outputs": [],
-	"synccode":""
-    }
-    ,
-    {
-	"children": ["code2" ],
-	"connections": [],
-	"diagram":"x_FeA5kuE7ltZkfkWCjx6k",
-	"id":"q8f1Wc8Eixn7i3I6va0J__6",
-	"inputs": ["in" ],
-	"name":"world",
-	"outputs": [],
-	"synccode":""
-    }
-    ,
-    {
-	"children": [],
-	"connections": [],
-	"diagram":"x_FeA5kuE7ltZkfkWCjx6k",
-	"id":"zEKeuJ7PfgvpXLju9ces__1",
-	"inputs": [],
-	"name":"code1",
-	"outputs": [],
-	"synccode":"echo hello"
-    }
-    ,
-    {
-	"children": [],
-	"connections": [],
-	"diagram":"x_FeA5kuE7ltZkfkWCjx6k",
-	"id":"zEKeuJ7PfgvpXLju9ces__2",
-	"inputs": [],
-	"name":"code2",
-	"outputs": [],
-	"synccode":"echo world"
-    }
-]
+  ],
+  "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
+  "id":"q8f1Wc8Eixn7i3I6va0J__35",
+  "inputs": [],
+  "name":"VSH0",
+  "outputs": [],
+  "synccode":""
+}
+,
+{
+  "children": ["code2" ],
+  "connections": [],
+  "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
+  "id":"q8f1Wc8Eixn7i3I6va0J__6",
+  "inputs": ["in" ],
+  "name":"world",
+  "outputs": [],
+  "synccode":""
+}
+,
+{
+  "children": [],
+  "connections": [],
+  "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
+  "id":"zEKeuJ7PfgvpXLju9ces__1",
+  "inputs": [],
+  "name":"code1",
+  "outputs": [],
+  "synccode":"echo hello&lt;br&gt;echo done &amp;gt;/dev/fd/4"
+}
+,
+{
+  "children": [],
+  "connections": [],
+  "diagram":"id_FeA5kuE7ltZkfkWCjx6k",
+  "id":"zEKeuJ7PfgvpXLju9ces__2",
+  "inputs": [],
+  "name":"code2",
+  "outputs": [],
+  "synccode":"read &amp;lt;/dev/fd/3&lt;br&gt;echo world"
+}
+,
+true]
