@@ -1,4 +1,4 @@
-Diagrams [@ds] = [[${support.strMangle (ds)}]]
+Diagrams [@ds] = [[${ds}]]
 Diagram [k @a k2 graphmodel k3] =
   {{scopeAdd ('diagramid', 'yyy'); }}
   [[${a}${graphmodel}]]
